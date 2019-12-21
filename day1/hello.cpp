@@ -1,10 +1,21 @@
 #include <stdio.h>
 #include <math.h>
 
+int f(int x){
+	return x+3;
+}
+
+
+
 int main(){
 
-	printf("%d\n", 1+2);
-	printf("%.2f\n", sqrt(8));
+	printf("%d\n", f(3));
+	printf("go\n");
+	printf("haha\n");
+
+	int m1 = f(100);
+
+	printf("%d\n",m1);
 
 	return 0;
 }

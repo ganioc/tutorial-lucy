@@ -3,7 +3,7 @@ cppsrc= $(wildcard *.cpp)
 
 cobj=$(cppsrc:.cpp=.o)
 
-FLAGS=
+FLAGS= -g
 LDFLAGS= -lm
 CC=g++
 
@@ -18,7 +18,7 @@ hello: $(cobj)
 	$(CC) $(LDFLAGS) $< -o $@ 
 
 %.o:%.cpp
-	$(CC) -o $@ -c $<
+	$(CC) $(FLAGS) -o $@ -c $<
 
 .PHONY: clean
 
