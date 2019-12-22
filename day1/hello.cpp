@@ -13,7 +13,7 @@ int main(){
 	printf("go\n");
 	printf("haha\n");
 
-	int m1 = f(100);
+	int m1 = f(1040);
 
 	printf("%d\n",m1);
 

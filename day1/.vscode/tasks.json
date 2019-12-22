@@ -5,19 +5,46 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "g++ build active file",
-            "command": "/usr/bin/g++",
+            "label": "make",
+            "command": "make",
             "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                ""
             ],
             "options": {
-                "cwd": "/usr/bin"
+
             },
             "problemMatcher": [
-                "$gcc"
+
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "make clean",
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+            "options": {
+
+            },
+            "problemMatcher": [
+
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "运行./hello",
+            "command": "./hello",
+            "args": [
+                ""
+            ],
+            "options": {
+
+            },
+            "problemMatcher": [
+
             ],
             "group": "build"
         }
