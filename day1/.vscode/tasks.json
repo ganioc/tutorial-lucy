@@ -1,6 +1,4 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
         {
@@ -10,12 +8,8 @@
             "args": [
                 ""
             ],
-            "options": {
-
-            },
-            "problemMatcher": [
-
-            ],
+            "options": {},
+            "problemMatcher": [],
             "group": "build"
         },
         {
@@ -25,12 +19,8 @@
             "args": [
                 "clean"
             ],
-            "options": {
-
-            },
-            "problemMatcher": [
-
-            ],
+            "options": {},
+            "problemMatcher": [],
             "group": "build"
         },
         {
@@ -40,13 +30,23 @@
             "args": [
                 ""
             ],
-            "options": {
-
-            },
-            "problemMatcher": [
-
-            ],
+            "options": {},
+            "problemMatcher": [],
             "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "g++ build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            }
         }
     ]
 }
