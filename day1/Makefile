@@ -38,6 +38,8 @@ hello: $(cobj)
 
 clean:
 	rm -f hello $(cobj) *~ hello sq plus cylinder_area
+	rm -f *.o
+	
 
 
 

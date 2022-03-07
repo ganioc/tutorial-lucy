@@ -58,7 +58,6 @@ void light()
         printf(" ");
       }
         printf("%d",i);
-
     }
     printf("\n");
 

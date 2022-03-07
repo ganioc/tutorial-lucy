@@ -65,6 +65,19 @@ Because it's checked by computer, redundant information will puzzle the computer
 
 Use const for constant value
 
+# website
+西班牙大學的Valladolid, UVaOJ, 
+uva.onlinejudge.oreg,
+
+AOAPC II, 題庫,
+ZOJ, 浙江大學,
+POJ, 北京大學,
+HDOJ, 電子科技大學,
+SGU, 俄羅斯，
+Timus, 
+SPOJ, 波蘭的,
+
+
 
 
 
