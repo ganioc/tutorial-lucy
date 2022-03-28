@@ -10,7 +10,10 @@ CC=g++
 
 .PHONY: all
 
-all:hello sq plus cylinder_area chap2 chap3
+all:hello sq plus cylinder_area chap2 chap3 chap4
+
+chap4: chap4.o
+	$(CC) $(LDFLAGS) $< -o $@
 
 chap3: chap3.o
 	$(CC) $(LDFLAGS) $< -o $@
